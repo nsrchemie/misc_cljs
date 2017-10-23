@@ -1,0 +1,3 @@
+(boot (comps (cljs) (target)))
+(boot (comp (cljs) (target)))
+(start-repl)

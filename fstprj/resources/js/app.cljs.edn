@@ -1,0 +1,4 @@
+{:require [boot-03.app]
+:init-fns [boot-03.app/main]
+  :compiler-options {
+   :asset-path "js/app.out"}}

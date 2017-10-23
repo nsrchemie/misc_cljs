@@ -1,3 +1,0 @@
-{
- :init-fns [mycljs.first/main]
-}
