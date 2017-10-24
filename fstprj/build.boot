@@ -9,14 +9,14 @@
  [weasel                  "0.7.0"  :scope "test"]
  [org.clojure/tools.nrepl "0.2.12" :scope "test"]
  [org.clojure/clojurescript "1.9.456"]
- [hiccups "0.3.0"]])
+ [reagent "0.6.0"]])
 
 (require '[adzerk.boot-cljs :refer [cljs]]
   '[adzerk.boot-reload :refer [reload]]
   '[adzerk.boot-cljs-repl :refer [cljs-repl start-repl]]
   '[pandeiro.boot-http :refer [serve]])
 (task-options!
- reload {:on-jsload 'boot-05.app/main})
+ reload {:on-jsload 'boot-06.app/main})
 
 (deftask dev []
  (comp (serve) (watch) (reload) (cljs)))

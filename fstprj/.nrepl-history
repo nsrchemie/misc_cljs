@@ -24,3 +24,4 @@
 (defn init[]
 (set-container-html "Updating cafsdafsadf!"))
 (init )
+(start-repl)
