@@ -32,3 +32,6 @@
 (defn static-component [:a {:href "http://www.twitter.com"} "Whats the news!?"])
 (defn static-component [][:a {:href "http://www.twitter.com"} "Whats the news!?"])
 (init)
+(start-repl)
+(ns boot-06.app)
+(init)

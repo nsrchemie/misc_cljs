@@ -11,5 +11,5 @@
 
 (defn init[]
  (let [ container (.getElementById js/document "container")]
-   (reagent/render-component [static-component] container)))
+   (reagent/render-component [dynamic-component] container)))
 
