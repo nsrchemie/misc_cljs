@@ -1,3 +1,26 @@
 (boot (comps (cljs) (target)))
 (boot (comp (cljs) (target)))
 (start-repl)
+(ns boot-04.app)
+(defn set-container-html [msg]
+(let [ container (.getElementById js/document "container")]
+(set! .-innerHTML container) msg)))
+(defn set-container-html [msg]
+(let [ container (.getElementById js/document "container")]
+(set! (.-innerHTML container) msg)))
+(defn init[]
+(set-container-html "Updating container from repl!"))
+(ns boot-03.app)
+(set-container-html "Updating container from repl!"))
+(defn set-container-html [msg]
+(let [ container (.getElementById js/document "container")]
+(set! (.-innerHTML container) msg)))
+(set-container-html "Updating container from repl!"))
+(defn set-container-html [msg]
+(let [ container (.getElementById js/document "container")]
+(set! (.-innerHTML container) msg)))
+(defn init[]
+(set-container-html "Updating container from repl!"))
+(defn init[]
+(set-container-html "Updating cafsdafsadf!"))
+(init )
