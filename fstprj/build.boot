@@ -19,4 +19,4 @@
  reload {:on-jsload 'boot-06.app/main})
 
 (deftask dev []
- (comp (serve) (watch) (reload) (cljs)))
+ (comp (serve) (watch) (reload) (cljs-repl) (cljs)))
