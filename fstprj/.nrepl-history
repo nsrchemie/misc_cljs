@@ -35,3 +35,17 @@
 (start-repl)
 (ns boot-06.app)
 (init)
+(start-repl)
+(ns boot-06.app)
+(init)
+(reset! my-text "It's my life"!)
+(js/setTimeout #(do
+(reset!
+my-text "This is the rhythym of my life!")) 2000)
+(ns boot-07.app)
+(start-repl)
+(ns boot-07.app)
+(init)
+(start-repl)
+(ns boot-07.app)
+(reset! celsius-v 0)

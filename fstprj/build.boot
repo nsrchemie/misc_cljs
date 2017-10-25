@@ -16,7 +16,7 @@
   '[adzerk.boot-cljs-repl :refer [cljs-repl start-repl]]
   '[pandeiro.boot-http :refer [serve]])
 (task-options!
- reload {:on-jsload 'boot-06.app/main})
+ reload {:on-jsload 'boot-07.app/init})
 
 (deftask dev []
  (comp (serve) (watch) (reload) (cljs-repl) (cljs)))
