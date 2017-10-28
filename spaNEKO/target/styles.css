@@ -1,0 +1,13 @@
+h1 {
+  font-size: 14px;
+  color: #55bbff;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #C2DFFF;
+  height: 400;
+  padding-left: 20%;
+  font-family: Pangolin, cursive;
+  font-size: 12px;
+}

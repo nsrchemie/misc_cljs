@@ -1,0 +1,1 @@
+{:require [frontend.app adzerk.boot-reload.init620], :init-fns [frontend.app/init], :compiler-options {:asset-path "js/app.out"}}
